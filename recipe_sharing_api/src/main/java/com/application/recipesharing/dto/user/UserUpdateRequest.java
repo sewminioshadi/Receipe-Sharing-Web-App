@@ -1,0 +1,19 @@
+package com.application.recipesharing.dto.user;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+public class UserUpdateRequest {
+
+    private String firstName;
+
+    private String lastName;
+
+    private String profilePictureUrl;
+}
